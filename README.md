@@ -24,4 +24,4 @@ test code from other exercises.
 
 ## Runtime Analysis
 
-We see the outermost loop runs O(V) times where V represents the number of vertices in the graph. Moving deeper, we see two nested-loops. Both of which together check all vertex pairs making $O(V^2)$ passes. Finally, inside the intermost loop we see a constant-time comparison operation for another O(1) addition to our time complexity giving us our final asymptote of $((O(V) * O(V^2) + O(1)) => (O(V^3)))$.
+We see the outermost loop runs O(V) times where V represents the number of vertices in the graph. Moving deeper, we see two nested-loops. Both of which together check all vertex pairs making $O(V^2)$ passes. Finally, inside the intermost loop we see a constant-time comparison operation for another O(1) addition to our time complexity giving us our final asymptote of $(O(V) * O(V^2) + O(1)) => (O(V^3))$.
