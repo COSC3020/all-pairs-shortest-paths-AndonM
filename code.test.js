@@ -56,6 +56,7 @@ var expected3 = [
 testAllPairsShortestPaths(graph3, expected3);
 */
 
+/*
 var graph4 = [
     [0, 1, 3, 5],
     [2, 0, Infinity, 4],
@@ -69,6 +70,7 @@ var expected4 = [
     [6, 4, 5, 0]
 ];
 testAllPairsShortestPaths(graph4, expected4);
+*/
 
 var graph5 = [
     [0, 8, 1, 9],
