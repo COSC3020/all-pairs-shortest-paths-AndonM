@@ -1,5 +1,3 @@
-// NOT SURE WHAT'S GOING AWRY HERE. I'VE TRIED JUST ABOUT EVERYTHING UNDER THE SUN
-
 const fs = require('fs');
 const assert = require('assert');
 
