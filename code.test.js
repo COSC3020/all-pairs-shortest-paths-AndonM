@@ -21,8 +21,7 @@ const shortestPathsProperty = jsc.forall(jsc.array(jsc.pair(jsc.nat, jsc.nat)), 
   const graph = mat.map(function(row) {
     return row.slice();
   });
-  const result = allPairsShortestPaths(graph);
-  return true;
+  return allPairsShortestPaths(graph)
 });
 
 jsc.assert(shortestPathsProperty, { tests: 1000 });
