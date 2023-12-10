@@ -21,8 +21,8 @@ var expected1 = [
     [6, 1, 0, 3],
     [4, 6, 5, 0]
 ];
-*/
 testAllPairsShortestPaths(graph1, expected1);
+*/
 
 var graph2 = [
     [0, 10, 3, 7],
