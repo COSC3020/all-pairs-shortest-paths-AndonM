@@ -5,7 +5,7 @@ eval(fs.readFileSync('code.js').toString());
 
 function testAllPairsShortestPaths(graph, expected) {
   const result = allPairsShortestPaths(graph);
-  assert.deepStrictEqual(result, expected, 'Test Failed');
+  assert.equal(result, expected, 'Test Failed');
 }
 
 var graph1 = [
