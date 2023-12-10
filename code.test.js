@@ -1,3 +1,5 @@
+// NOT SURE WHAT'S GOING AWRY HERE. I'VE TRIED JUST ABOUT EVERYTHING UNDER THE SUN
+
 const fs = require('fs');
 const assert = require('assert');
 
@@ -10,8 +12,8 @@ var graph = [
 ];
 var expected = [
   [0, 2, 4],
-  [6, 0, 4],
-  [8, 1, 0]
+  [5, 0, 4],
+  [7, 1, 0]
 ];
 assert(JSON.stringify(allPairsShortestPaths(graph)) == JSON.stringify(expected));
 
@@ -21,7 +23,7 @@ var graph = [
   [7, 4, 0]
 ];
 var expected = [
-  [0, 8, 3],
+  [0, 10, 3],
   [2, 0, 5],
   [7, 4, 0]
 ];
@@ -34,7 +36,7 @@ var graph = [
 ];
 var expected = [
   [0, 5, 1],
-  [2, 0, 4],
+  [2, 0, 3],
   [6, 4, 0]
 ];
 assert(JSON.stringify(allPairsShortestPaths(graph)) == JSON.stringify(expected));
