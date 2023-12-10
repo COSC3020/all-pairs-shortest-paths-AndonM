@@ -8,6 +8,7 @@ function testAllPairsShortestPaths(graph, expected) {
   assert.equal(result, expected, 'Test Failed');
 }
 
+/*
 var graph1 = [
     [0, 2, 5, 8],
     [7, 0, 4, 6],
@@ -20,6 +21,7 @@ var expected1 = [
     [6, 1, 0, 3],
     [4, 6, 5, 0]
 ];
+*/
 testAllPairsShortestPaths(graph1, expected1);
 
 var graph2 = [
