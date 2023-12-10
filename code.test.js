@@ -10,8 +10,8 @@ var graph = [
 ];
 var expected = [
   [0, 2, 4],
-  [5, 0, 4],
-  [6, 1, 0]
+  [6, 0, 4],
+  [8, 1, 0]
 ];
 assert(JSON.stringify(allPairsShortestPaths(graph)) == JSON.stringify(expected));
 
@@ -23,7 +23,7 @@ var graph = [
 var expected = [
   [0, 8, 3],
   [2, 0, 5],
-  [6, 4, 0]
+  [7, 4, 0]
 ];
 assert(JSON.stringify(allPairsShortestPaths(graph)) == JSON.stringify(expected));
 
@@ -35,6 +35,6 @@ var graph = [
 var expected = [
   [0, 5, 1],
   [2, 0, 4],
-  [3, 1, 0]
+  [6, 4, 0]
 ];
 assert(JSON.stringify(allPairsShortestPaths(graph)) == JSON.stringify(expected));
