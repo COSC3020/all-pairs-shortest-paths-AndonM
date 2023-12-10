@@ -1,7 +1,7 @@
 const fs = require('fs');
 const assert = require('assert');
 
-eval(fs.readFileSync('code.js').toString());
+eval(fs.readFileSync('code.js')+'');
 
 var graph = [
   [0, 2, 5],
