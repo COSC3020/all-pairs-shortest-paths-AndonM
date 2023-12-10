@@ -3,38 +3,38 @@ const assert = require('assert');
 
 eval(fs.readFileSync('code.js').toString());
 
-var graph1 = [
+var graph = [
   [0, 2, 5],
   [7, 0, 4],
   [9, 1, 0]
 ];
-var expected1 = [
+var expected = [
   [0, 2, 4],
   [5, 0, 4],
   [6, 1, 0]
 ];
-assert(JSON.stringify(allPairsShortestPaths(graph1)) == JSON.stringify(expected1));
+assert(JSON.stringify(allPairsShortestPaths(graph)) == JSON.stringify(expected));
 
-var graph2 = [
+var graph = [
   [0, 10, 3],
   [2, 0, 15],
   [7, 4, 0]
 ];
-var expected2 = [
+var expected = [
   [0, 8, 3],
   [2, 0, 5],
   [6, 4, 0]
 ];
-assert(JSON.stringify(allPairsShortestPaths(graph2)) == JSON.stringify(expected2));
+assert(JSON.stringify(allPairsShortestPaths(graph)) == JSON.stringify(expected));
 
-var graph3 = [
+var graph = [
   [0, 5, 1],
   [2, 0, 7],
   [6, 4, 0]
 ];
-var expected3 = [
+var expected = [
   [0, 5, 1],
   [2, 0, 4],
   [3, 1, 0]
 ];
-assert(JSON.stringify(allPairsShortestPaths(graph3)) == JSON.stringify(expected3));
+assert(JSON.stringify(allPairsShortestPaths(graph)) == JSON.stringify(expected));
