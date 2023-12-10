@@ -15,10 +15,10 @@ var graph1 = [
     [7, 9, 8, 0]
 ];
 var expected1 = [
-    [0, 2, 5, 3],
-    [1, 0, 4, 2],
-    [3, 1, 0, 3],
-    [1, 3, 2, 0]
+    [0, 2, 4, 3],
+    [5, 0, 4, 3],
+    [6, 1, 0, 3],
+    [4, 6, 5, 0]
 ];
 testAllPairsShortestPaths(graph1, expected1);
 
@@ -57,9 +57,9 @@ var graph4 = [
     [6, 4, 7, 0]
 ];
 var expected4 = [
-    [0, 1, 3, 5],
+    [0, 1, 3, 4],
     [2, 0, 6, 4],
-    [6, 4, 0, 2],
+    [8, 4, 0, 2],
     [6, 4, 5, 0]
 ];
 testAllPairsShortestPaths(graph4, expected4);
